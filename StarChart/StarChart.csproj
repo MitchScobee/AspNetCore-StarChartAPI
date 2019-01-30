@@ -15,4 +15,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\CelestialObjectscs" />
+  </ItemGroup>
 </Project>
